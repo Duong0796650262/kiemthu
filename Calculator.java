@@ -58,7 +58,7 @@ public class Calculator extends javax.swing.JFrame {
                 btnNhanActionPerformed(evt);
             }
         });
-
+//test
         btnChia.setText("Chia");
         btnChia.setPreferredSize(new java.awt.Dimension(75, 40));
         btnChia.addActionListener(new java.awt.event.ActionListener() {
@@ -209,10 +209,10 @@ public class Calculator extends javax.swing.JFrame {
     private void btnNhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhanActionPerformed
         // TODO add your handling code here:
         try{
-            int num1 = Double.parseDouble(txta.getText());
+            double num1 = Double.parseDouble(txta.getText());
             double num2 = Double.parseDouble(txtb.getText());
             double nhan = 0;
-            nhan = num11 * num2;
+            nhan = num1 * num2;
             txtKQ.setText(nhan + "");
         } catch(Exception ex) {}
     }//GEN-LAST:event_btnNhanActionPerformed
