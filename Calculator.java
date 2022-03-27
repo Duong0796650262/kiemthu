@@ -206,6 +206,7 @@ public class Calculator extends javax.swing.JFrame {
         } catch(Exception ex) {}
     }//GEN-LAST:event_btnTruActionPerformed
 
+    //test duong github commit
     private void btnNhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhanActionPerformed
         // TODO add your handling code here:
         try{
