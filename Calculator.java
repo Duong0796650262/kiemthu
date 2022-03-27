@@ -221,10 +221,10 @@ public class Calculator extends javax.swing.JFrame {
         // TODO add your handling code here:
         try{
             double num1 = Double.parseDouble(txta.getText());
-            double num2 = Double.parseDouble(txtb.getText1());
+            double num2 = Double.parseDouble(txtb.getText());
             double chia = 0;
             chia = num1 / num2;
-            txtKQ.setText(chia + );
+            txtKQ.setText(chia + " ");
         } catch(Exception ex) {}
     }//GEN-LAST:event_btnChiaActionPerformed
 
